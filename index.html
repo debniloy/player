@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brandlogo"><img src="logo.png" alt="Music App"><span>Music App</span></li>
+            <li>Home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songList">
+            <h2 style="margin-left: 15px;">Best of NCS Music</h2><button class="btn play" id="playBtn1"
+                title="Play All">Play All</button>
+            <div class="songitemContainer" id="songitemContainer1">
+                <!-- <div class="songItem">
+                    <img src="/covers/10.jpg" alt="True love"><span>Let me love you</span><span>5:30</span><span><i
+                            class="fas fa-play-circle"></i></span>
+                </div> -->
+
+            </div>
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+    <div class="bottom">
+        <div class="inputdiv">
+            <input type="range" name="range" id="range" min="0" max="100"> &nbsp;
+            <span id="songduration">--/--</span>
+        </div>
+        <!-- <audio id="audiosource" src=""></audio> -->
+        <div class="icons">
+            <!-- fontawasome icons -->
+            <i id="repeat" class="fa fa-2x fa-repeat"></i>
+            <i id="backward" class="fas fa-2x fa-step-backward"></i>
+            <i id="masterPlay" class="fas fa-2x fa-play-circle"></i>
+            <!-- <i id="stop" class="far fa-2x fa-stop-circle"></i> -->
+            <i id="forward" class="fas fa-2x fa-step-forward"></i>
+            <i id="shuffel" class="fas fa-2x fa-random"></i>
+            <i id="stop" class="fa fa-2x fa-solid fa-stop"></i>
+
+
+
+        </div>
+        <div class="songInfo">
+            <img id="songInfogif" src="playing.gif" width="60vw" alt="playing"> <span id="songinfoName">NCS
+                Songs--1</span>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/6848a8da01.js" crossorigin="anonymous"></script>
+
+</html>
